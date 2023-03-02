@@ -1,0 +1,47 @@
+[
+{
+	"firstname": "KONAN",
+	"lastname": "LIONEL",
+	"age": "32",
+	"sex": "M",
+	"job": "ENG",
+	"attributes": {
+		"externalInvoiceId": "HKECO/4850",
+		"externalInvoiceFileId": "invoicing-documents/HKECO/2023/02/invoices/d79fb8ff8d536a9a26381a111e8fe100f5fca787d4f6fd8a3e5b487c75105b55.pdf",
+		"externalInvoiceCreationDate": "2023-01-25"
+	}
+},{
+	"firstname": "KONATE",
+	"lastname": "TADIA",
+	"age": "30",
+	"sex": "M",
+	"job": "MANAGER",
+	"attributes": {
+		"externalInvoiceId": "HKECO/4850",
+		"externalInvoiceFileId": "invoicing-documents/HKECO/2023/02/invoices/d79fb8ff8d536a9a26381a111e8fe100f5fca787d4f6fd8a3e5b487c75105b55.pdf",
+		"externalInvoiceCreationDate": "2023-01-25"
+	}
+},{
+	"firstname": "OUATTARA",
+	"lastname": "ADAMA",
+	"age": "33",
+	"sex": "M",
+	"job": "ENG",
+	"attributes": {
+		"externalInvoiceId": "HKECO/4850",
+		"externalInvoiceFileId": "invoicing-documents/HKECO/2023/02/invoices/d79fb8ff8d536a9a26381a111e8fe100f5fca787d4f6fd8a3e5b487c75105b55.pdf",
+		"externalInvoiceCreationDate": "2023-01-25"
+	}
+},{
+	"firstname": "KOFFI",
+	"lastname": "MAURICE",
+	"age": "32",
+	"sex": "M",
+	"job": "ENG",
+	"attributes": {
+		"externalInvoiceId": "HKECO/4850",
+		"externalInvoiceFileId": "invoicing-documents/HKECO/2023/02/invoices/d79fb8ff8d536a9a26381a111e8fe100f5fca787d4f6fd8a3e5b487c75105b55.pdf",
+		"externalInvoiceCreationDate": "2023-01-25"
+	}
+}
+]

@@ -11,7 +11,9 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
                 <http:headers>#[vars.outboundHeaders default {}]</http:headers>
             </http:error-response>
         </http:listener>
-        <apikit:router config-ref="sys-api-config" />
+        <logger level="INFO" doc:name="BEGIN SYS APP CALL" doc:id="5652ffd3-51e2-4c3c-ab36-013cdd7037ee" message="BEGIN SYS APP CALL"/>
+		<apikit:router config-ref="sys-api-config" />
+		<logger level="INFO" doc:name="END SYS APP CALL" doc:id="460ce03c-80f1-42f4-8a3a-f3837830d973" message="END SYS APP CALL"/>
         
     </flow>
     <flow name="sys-api-console">

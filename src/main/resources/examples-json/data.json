@@ -1,0 +1,1030 @@
+{
+	"data": {
+		"order": {
+			"id": "777426",
+			"ref": "EC01298891",
+			"type": "HD",
+			"status": "DELIVERED",
+			"updatedOn": "2023-02-08T16:07:39.318Z",
+			"createdOn": "2023-01-18T17:24:34.607Z",
+			"totalPrice": 329.95,
+			"totalTaxPrice": 52.68,
+			"customer": {
+				"id": "695916",
+				"ref": "6d693225-6387-447b-9257-e9f3ad5c4900",
+				"title": null,
+				"lastName": "Taubert",
+				"firstName": "Vincent",
+				"primaryEmail": "taubert-vincent@t-online.de",
+				"primaryPhone": "017641638009",
+				"promotionOptIn": false,
+				"username": "6d693225-6387-447b-9257-e9f3ad5c4900",
+				"createdOn": "2023-01-18T17:24:34.608Z",
+				"updatedOn": "2023-01-18T17:24:34.608Z",
+				"country": null,
+				"retailer": {
+					"id": "1"
+				},
+				"attributes": [
+					{
+						"name": "custom.gcid",
+						"type": "STRING",
+						"value": "c0d3cb3e-8cc1-40cf-bb13-038f28a29696"
+					},
+					{
+						"name": "custom.firstName",
+						"type": "STRING",
+						"value": "Vincent"
+					},
+					{
+						"name": "custom.clientType",
+						"type": "STRING",
+						"value": "GUEST"
+					}
+				]
+			},
+			"items": {
+				"edges": [
+					{
+						"node": {
+							"ref": "R1009DVOCY009L",
+							"product": {
+								"ref": "R1009DVOCY009L",
+								"gtin": "3616257851059",
+								"name": "Dio(r)evolution Ring",
+								"attributes": [
+									{
+										"name": "Hashtag",
+										"type": "STRING",
+										"value": "nouveaute"
+									},
+									{
+										"name": "CategoryCode",
+										"type": "STRING",
+										"value": "05"
+									},
+									{
+										"name": "StyleColorSize",
+										"type": "STRING",
+										"value": "R1009DVOCY_D009_TL"
+									},
+									{
+										"name": "Categories",
+										"type": "STRING",
+										"value": "Women_Accessories"
+									},
+									{
+										"name": "Size",
+										"type": "INTEGER",
+										"value": "TL"
+									},
+									{
+										"name": "Color",
+										"type": "STRING",
+										"value": "D009"
+									},
+									{
+										"name": "Caracteristics",
+										"type": "STRING",
+										"value": "White crystals'DIOR' signatureSilver-finish metalMade in Europe"
+									},
+									{
+										"name": "Universe",
+										"type": "STRING",
+										"value": "2"
+									},
+									{
+										"name": "UniverseLabel",
+										"type": "STRING",
+										"value": "Femme"
+									},
+									{
+										"name": "StyleDescription",
+										"type": "STRING",
+										"value": "DVO Dior ring"
+									},
+									{
+										"name": "MadeInM3",
+										"type": "STRING",
+										"value": "DE"
+									},
+									{
+										"name": "SubFamilyCode",
+										"type": "STRING",
+										"value": "01_06"
+									},
+									{
+										"name": "SubUniverseLabel",
+										"type": "STRING",
+										"value": "Bijoux Accessories"
+									},
+									{
+										"name": "AnaplanLocationsScore",
+										"type": "JSON",
+										"value": {
+											"locations": [
+												{
+													"id": "1NY07",
+													"score": 9
+												},
+												{
+													"id": "1CA05",
+													"score": 1000
+												},
+												{
+													"id": "2ON51",
+													"score": 21
+												},
+												{
+													"id": "HK001",
+													"score": 1000
+												},
+												{
+													"id": "HK004",
+													"score": 1000
+												},
+												{
+													"id": "HK002",
+													"score": 1000
+												},
+												{
+													"id": "HK003",
+													"score": 1000
+												},
+												{
+													"id": "1CA11",
+													"score": 21
+												},
+												{
+													"id": "2BC01",
+													"score": 31.5
+												},
+												{
+													"id": "1TX01",
+													"score": 15.75
+												},
+												{
+													"id": "FR601",
+													"score": 4.5
+												},
+												{
+													"id": "1FL01",
+													"score": 63
+												},
+												{
+													"id": "1NJ01",
+													"score": 31.5
+												},
+												{
+													"id": "1TX02",
+													"score": 1000
+												},
+												{
+													"id": "2ON53",
+													"score": 31.5
+												},
+												{
+													"id": "FR012",
+													"score": 15.75
+												},
+												{
+													"id": "1CA01",
+													"score": 10.5
+												},
+												{
+													"id": "1NV01",
+													"score": 21
+												},
+												{
+													"id": "1NY05",
+													"score": 63
+												},
+												{
+													"id": "2BC51",
+													"score": 1000
+												},
+												{
+													"id": "1IL01",
+													"score": 31.5
+												},
+												{
+													"id": "HK014",
+													"score": 6.3
+												},
+												{
+													"id": "2ON01",
+													"score": 63
+												},
+												{
+													"id": "2QE52",
+													"score": 31.5
+												}
+											]
+										}
+									},
+									{
+										"name": "Subtitle",
+										"type": "STRING",
+										"value": "Silver-Finish Metal with White Crystals"
+									},
+									{
+										"name": "MainComposition",
+										"type": "STRING",
+										"value": "80% Brass 20% Crystal"
+									},
+									{
+										"name": "ColorDescription",
+										"type": "STRING",
+										"value": "009 palladium / white"
+									},
+									{
+										"name": "LongDescription",
+										"type": "STRING",
+										"value": "The Dio(r)evolution ring is both modern and timeless. Made with silver-finish metal, the style proudly features a central 'DIOR' signature with a white crystal pavé. The ring can be paired with other creations from the Dio(r)evolution line."
+									},
+									{
+										"name": "DiorcomSeason",
+										"type": "STRING",
+										"value": "PI"
+									},
+									{
+										"name": "SousUnivers",
+										"type": "STRING",
+										"value": "05"
+									},
+									{
+										"name": "imageUrl",
+										"type": "STRING",
+										"value": "https://assets.christiandior.com/is/image//diorprod/R1009DVOCYD009_E03?$Thumbnail_Medium_Resize$"
+									},
+									{
+										"name": "CategoryDescription",
+										"type": "STRING",
+										"value": "Bijoux Accessories"
+									},
+									{
+										"name": "CustomCode",
+										"type": "STRING",
+										"value": "71171900"
+									},
+									{
+										"name": "ModelLabel",
+										"type": "STRING",
+										"value": "DVO Dior ring"
+									}
+								]
+							},
+							"quantity": 1,
+							"price": 320.0,
+							"taxPrice": 51.09,
+							"totalPrice": 320.0,
+							"totalTaxPrice": 51.09,
+							"taxType": null,
+							"paidPrice": 320.0,
+							"currency": "EUR",
+							"attributes": [
+								{
+									"name": "filledTotalPriceExcludingTaxes",
+									"type": "DOUBLE",
+									"value": 268.91
+								},
+								{
+									"name": "custom.dispatchDate",
+									"type": "STRING",
+									"value": "2023-01-19T07:24:20.000Z"
+								},
+								{
+									"name": "custom.MadeInM3",
+									"type": "STRING",
+									"value": "DE"
+								},
+								{
+									"name": "custom.productNetPrice",
+									"type": "STRING",
+									"value": 268.91
+								},
+								{
+									"name": "custom.productTaxRate",
+									"type": "STRING",
+									"value": 0.19
+								},
+								{
+									"name": "custom.CustomsCode",
+									"type": "STRING",
+									"value": "71171900"
+								},
+								{
+									"name": "custom.initialSellPrice",
+									"type": "STRING",
+									"value": 320
+								},
+								{
+									"name": "custom.longDescription",
+									"type": "STRING",
+									"value": "Der Dio(r)evolution Ring ist modern und zeitlos zugleich. Das Metalldesign mit Silber-Finish überzeugt durch einen mittigen „DIOR“-Schriftzug und weiße Pavé-Kristalle. Der Ring lässt sich zu weiteren Kreationen der Dio(r)evolution Linie kombinieren."
+								},
+								{
+									"name": "custom.EAN",
+									"type": "STRING",
+									"value": "3616257851059"
+								},
+								{
+									"name": "custom.ColorCode",
+									"type": "STRING",
+									"value": "D009"
+								},
+								{
+									"name": "custom.SizeLabel",
+									"type": "STRING",
+									"value": "L"
+								},
+								{
+									"name": "custom.isPersonalized",
+									"type": "BOOLEAN",
+									"value": false
+								},
+								{
+									"name": "custom.ProductSubtitle",
+									"type": "STRING",
+									"value": "Metall mit Silber-Finish und Kristalle in Weiß"
+								},
+								{
+									"name": "custom.carrierInfo",
+									"type": "JSON",
+									"value": {
+										"carrierCode": "DHL",
+										"serviceCode": "ECX",
+										"additionalServiceCodes": []
+									}
+								},
+								{
+									"name": "custom.ColorLabel",
+									"type": "STRING",
+									"value": "009 palladium / white"
+								},
+								{
+									"name": "custom.imageUrl",
+									"type": "STRING",
+									"value": "https://wwws.dior.com/couture/ecommerce/media/catalog/product/M/O/1645629030_R1009DVOCY_D009_E01_ZHC.jpg"
+								},
+								{
+									"name": "custom.shippingDelay",
+									"type": "STRING",
+									"value": "2023-01-20T00:00:00.000Z"
+								},
+								{
+									"name": "serialNumber",
+									"type": "STRING",
+									"value": ""
+								},
+								{
+									"name": "custom.promotionFlag",
+									"type": "STRING",
+									"value": "REGULAR_PRODUCT"
+								},
+								{
+									"name": "custom.productUrl",
+									"type": "STRING",
+									"value": "https://www.dior.com/de_de/fashion/products/R1009DVOCY_D009_TL-dio(r)evolution-ring"
+								},
+								{
+									"name": "custom.promotions",
+									"type": "JSON",
+									"value": []
+								},
+								{
+									"name": "filledTotalPrice",
+									"type": "DOUBLE",
+									"value": 320.0
+								},
+								{
+									"name": "custom.Size",
+									"type": "STRING",
+									"value": "TL"
+								},
+								{
+									"name": "filledTotalTaxPrice",
+									"type": "DOUBLE",
+									"value": 51.09
+								},
+								{
+									"name": "custom.taxDetails",
+									"type": "JSON",
+									"value": [
+										{
+											"taxRate": 0.19,
+											"taxLevel": "COUNTRY",
+											"unitTaxAmount": 51.09,
+											"totalTaxAmount": 51.09
+										}
+									]
+								},
+								{
+									"name": "custom.name",
+									"type": "STRING",
+									"value": "Dio(r)evolution Ring"
+								},
+								{
+									"name": "custom.productTaxClassID",
+									"type": "STRING",
+									"value": "standard"
+								},
+								{
+									"name": "returnableQty",
+									"type": "INTEGER",
+									"value": 0
+								}
+							]
+						}
+					}
+				]
+			},
+			"fulfilments": {
+				"edges": [
+					{
+						"node": {
+							"id": "900030",
+							"ref": "5d38ebbf-b48a-44c6-9ca3-79b323aded2c",
+							"createdOn": "2023-01-18T17:24:35.917Z",
+							"updatedOn": "2023-01-24T11:59:41.980Z",
+							"status": "DELIVERED",
+							"type": "HD_PFDC",
+							"deliveryType": "XPR",
+							"eta": null,
+							"expiryTime": null,
+							"articles": {
+								"edges": [
+									{
+										"node": {
+											"id": "875415",
+											"ref": "373330062700757304-900030",
+											"attributes": [
+												{
+													"name": "returnTrackingLabel",
+													"value": "warehouse-documents/return-labels/2023/01/ADC45DDDC4754DDF533EB54BB5A0890A6EAF3FA90186BB8D4EC3CC4C6839032E.pdf"
+												},
+												{
+													"name": "wmsShippingDate",
+													"value": "20230121"
+												},
+												{
+													"name": "trackingUrl",
+													"value": "https://www.dhl.com/en/express/tracking.html?AWB=373330062700757304&brand=DHL"
+												},
+												{
+													"name": "isDCArticle",
+													"value": true
+												},
+												{
+													"name": "returnTrackingNumber",
+													"value": "1Z817V709178203994"
+												},
+												{
+													"name": "custom.orderType",
+													"value": "HD"
+												},
+												{
+													"name": "counter",
+													"value": 2
+												},
+												{
+													"name": "deliveryDate",
+													"value": "2023-01-24T11:50:00"
+												},
+												{
+													"name": "trackingNumber",
+													"value": "373330062700757304"
+												},
+												{
+													"name": "items",
+													"value": {
+														"items": [
+															{
+																"ean": "3616257851059",
+																"sku": "R1009DVOCY009L",
+																"quantity": 1
+															}
+														]
+													}
+												},
+												{
+													"name": "returnTrackingAvailable",
+													"value": true
+												}
+											]
+										}
+									}
+								]
+							},
+							"fromAddress": {
+								"name": "WAREHOUSE CDE",
+								"companyName": "DERET LOGISTIQUE",
+								"street": "23 RUE DES SABLONS",
+								"state": "",
+								"postcode": "45140",
+								"city": "Ormes",
+								"country": "FR"
+							},
+							"fromLocation": {
+								"ref": "FR201"
+							},
+							"toAddress": {
+								"name": "Vincent|Taubert",
+								"companyName": null,
+								"street": "Kalenkamp 2",
+								"state": null,
+								"postcode": "25593",
+								"city": "Reher",
+								"country": "DE"
+							},
+							"items": {
+								"edges": [
+									{
+										"node": {
+											"ref": "R1009DVOCY009L",
+											"status": "CREATED",
+											"requestedQuantity": 1,
+											"filledQuantity": 1,
+											"rejectedQuantity": 0,
+											"orderItem": {
+												"ref": "R1009DVOCY009L",
+												"product": {
+													"ref": "R1009DVOCY009L",
+													"gtin": "3616257851059"
+												}
+											}
+										}
+									}
+								]
+							},
+							"attributes": [
+								{
+									"name": "firstPackConfirmedFulfilment",
+									"type": "BOOLEAN",
+									"value": true
+								},
+								{
+									"name": "externalInvoiceFileId",
+									"type": "STRING",
+									"value": "invoicing-documents/DE201/2023/01/invoices/0535a9a9b7a77a612ce26bb52b234f3ea56d056679acf6f40424f60fb39e22ca.pdf"
+								},
+								{
+									"name": "is_active",
+									"type": "STRING",
+									"value": "ACTIVE"
+								},
+								{
+									"name": "shippingDate",
+									"type": "STRING",
+									"value": "2023-01-21"
+								},
+								{
+									"name": "totalPrice",
+									"type": "STRING",
+									"value": 328.36
+								},
+								{
+									"name": "returnDateLimit",
+									"type": "STRING",
+									"value": "2023-02-20"
+								},
+								{
+									"name": "subTotal",
+									"type": "STRING",
+									"value": 328.36
+								},
+								{
+									"name": "FulfilmentType",
+									"type": "STRING",
+									"value": "HD_PFDC"
+								},
+								{
+									"name": "invoiceRef",
+									"type": "STRING",
+									"value": "INVOICE-43dffa6f-746d-4824-b36b-b2de99b3378b"
+								},
+								{
+									"name": "shippingDelay",
+									"type": "STRING",
+									"value": "2023-01-20T00:00:00.000Z"
+								},
+								{
+									"name": "totalTaxPrice",
+									"type": "STRING",
+									"value": 52.68
+								},
+								{
+									"name": "externalInvoiceId",
+									"type": "STRING",
+									"value": "DE201/111863"
+								},
+								{
+									"name": "externalInvoiceCreationDate",
+									"type": "STRING",
+									"value": "2023-01-21"
+								},
+								{
+									"name": "update_fulfilment",
+									"type": "BOOLEAN",
+									"value": true
+								},
+								{
+									"name": "deliveryDate",
+									"type": "STRING",
+									"value": "2023-01-24T11:50:00"
+								},
+								{
+									"name": "deliveryCost",
+									"type": "STRING",
+									"value": 9.95
+								},
+								{
+									"name": "invoiceDisplayDate",
+									"type": "STRING",
+									"value": ""
+								}
+							]
+						}
+					}
+				]
+			},
+			"fulfilmentChoice": {
+				"id": "782214",
+				"deliveryType": "XPR",
+				"fulfilmentPrice": 8.36,
+				"fulfilmentTaxPrice": 1.59,
+				"fulfilmentType": "HD_PFDC",
+				"pickupLocationRef": null,
+				"currency": "EUR",
+				"deliveryAddress": {
+					"id": "783938",
+					"companyName": null,
+					"name": "Vincent|Taubert",
+					"street": "Kalenkamp 2",
+					"city": "Reher",
+					"state": null,
+					"postcode": "25593",
+					"country": "DE",
+					"ref": "a1909813f30b6215d68ef48580"
+				},
+				"createdOn": "2023-01-18T17:24:34.610Z",
+				"updatedOn": "2023-01-18T17:24:34.610Z"
+			},
+			"financialTransactions": {
+				"edges": [
+					{
+						"node": {
+							"id": "1658486",
+							"ref": "99fb142f-827f-4f6c-a8b1-6f656a645fef0:REFUND",
+							"createdOn": "2023-02-08T16:07:39.628Z",
+							"type": "PAYMENT",
+							"status": "CREATED",
+							"total": 320.0,
+							"currency": "EUR",
+							"externalTransactionCode": "6742828578596530804055",
+							"externalTransactionId": "5DN8366016144322Y",
+							"cardType": null,
+							"paymentMethod": "PayPal",
+							"paymentProviderName": "PAYPAL"
+						}
+					},
+					{
+						"node": {
+							"id": "1613416",
+							"ref": "ba19a704-4aa9-4f36-86d8-b5b4c4b12a70:CAPTURE",
+							"createdOn": "2023-01-21T06:34:15.076Z",
+							"type": "PAYMENT",
+							"status": "CREATED",
+							"total": 329.95,
+							"currency": "EUR",
+							"externalTransactionCode": "6740626709386993204014",
+							"externalTransactionId": "5DN8366016144322Y",
+							"cardType": null,
+							"paymentMethod": "PayPal",
+							"paymentProviderName": "PAYPAL"
+						}
+					},
+					{
+						"node": {
+							"id": "1607427",
+							"ref": "c6090890-bbe8-4a95-a785-2b2eb39f6b36:AUTHORIZED::0",
+							"createdOn": "2023-01-18T17:24:43.723Z",
+							"type": "PAYMENT",
+							"status": "CREATED",
+							"total": 329.95,
+							"currency": "EUR",
+							"externalTransactionCode": "6740626709386993204014",
+							"externalTransactionId": "5DN8366016144322Y",
+							"cardType": null,
+							"paymentMethod": "PayPal",
+							"paymentProviderName": "PAYPAL"
+						}
+					}
+				]
+			},
+			"attributes": [
+				{
+					"name": "groupOrder",
+					"type": "JSON",
+					"value": [
+						{
+							"group": [
+								"920195"
+							]
+						}
+					]
+				},
+				{
+					"name": "custom.isCrossBorder",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "pspSubscriptionId",
+					"type": "STRING",
+					"value": "0"
+				},
+				{
+					"name": "custom.whTimezone",
+					"type": "STRING",
+					"value": "Europe/Paris"
+				},
+				{
+					"name": "ccAuthServiceCommerIndicator",
+					"type": "STRING",
+					"value": ""
+				},
+				{
+					"name": "custom.sfccOrderToken",
+					"type": "STRING",
+					"value": "L-kJY40dHnMk1QW2Pu--897e1zmklI8k_QTMT7vgyr8"
+				},
+				{
+					"name": "custom.BillingAddress",
+					"type": "JSON",
+					"value": {
+						"city": "Reher",
+						"phone": "017641638009",
+						"country": "DE",
+						"address1": "Kalenkamp 2",
+						"lastname": "Taubert",
+						"postcode": "25593",
+						"firstname": "Vincent",
+						"countryLabel": "Germany"
+					}
+				},
+				{
+					"name": "custom.isOrderWithOptionsService",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "custom.total_net_price",
+					"type": "STRING",
+					"value": 277.27
+				},
+				{
+					"name": "custom.shippingMethodLabel",
+					"type": "STRING",
+					"value": "Expresslieferung"
+				},
+				{
+					"name": "totalTransactionsValue",
+					"type": "DOUBLE",
+					"value": 329.95
+				},
+				{
+					"name": "isCapturedAtCheckout",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "filledTotalOrderTaxPrice",
+					"type": "DOUBLE",
+					"value": 51.09
+				},
+				{
+					"name": "custom.orderType",
+					"type": "STRING",
+					"value": "HD"
+				},
+				{
+					"name": "filledTotalOrderPrice",
+					"type": "DOUBLE",
+					"value": 328.36
+				},
+				{
+					"name": "custom.shippingAddress",
+					"type": "JSON",
+					"value": {
+						"city": "Reher",
+						"phone": "017641638009",
+						"country": "DE",
+						"address1": "Kalenkamp 2",
+						"lastname": "Taubert",
+						"postcode": "25593",
+						"firstname": "Vincent",
+						"countryLabel": "Germany"
+					}
+				},
+				{
+					"name": "custom.isOrderMultiLang",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "custom.orderNo",
+					"type": "STRING",
+					"value": "EC01298891"
+				},
+				{
+					"name": "updatedOrderAmountTaxIncluded",
+					"type": "DOUBLE",
+					"value": 9.95
+				},
+				{
+					"name": "custom.taxType",
+					"type": "String",
+					"value": "GROSS"
+				},
+				{
+					"name": "AVSCode",
+					"type": "STRING",
+					"value": ""
+				},
+				{
+					"name": "sfcc.order_date",
+					"type": "STRING",
+					"value": "2023-01-18T17:24:28.945Z"
+				},
+				{
+					"name": "isOrderClosed",
+					"type": "BOOLEAN",
+					"value": true
+				},
+				{
+					"name": "paymentMethod",
+					"type": "STRING",
+					"value": "PayPal"
+				},
+				{
+					"name": "custom.shippingTaxDetails",
+					"type": "JSON",
+					"value": [
+						{
+							"taxRate": 0.19,
+							"taxLevel": "COUNTRY",
+							"unitTaxAmount": 1.59,
+							"totalTaxAmount": 1.59
+						}
+					]
+				},
+				{
+					"name": "custom.isCscOfferedShippingFees",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "custom.ipAddress",
+					"type": "STRING",
+					"value": "140.248.36.69"
+				},
+				{
+					"name": "custom.isReturnInLocal",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "onePendingAntiFraud",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "filledSubTotalPrice",
+					"type": "DOUBLE",
+					"value": 320.0
+				},
+				{
+					"name": "sfcc.customer_locale",
+					"type": "STRING",
+					"value": "de_DE"
+				},
+				{
+					"name": "order.isABCDior",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "isGift",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "ccCaptureService_sequence",
+					"type": "STRING",
+					"value": "99"
+				},
+				{
+					"name": "deliveryDate",
+					"type": "STRING",
+					"value": "2023-01-24T11:50:00"
+				},
+				{
+					"name": "paymentStatus",
+					"type": "STRING",
+					"value": "AUTHORIZED"
+				},
+				{
+					"name": "sfcc.created_by",
+					"type": "STRING",
+					"value": "Customer"
+				},
+				{
+					"name": "custom.shipping_address_countryLabel",
+					"type": "STRING",
+					"value": "Germany"
+				},
+				{
+					"name": "isFraud",
+					"type": "STRING",
+					"value": "false"
+				},
+				{
+					"name": "paymentCompleted",
+					"type": "STRING",
+					"value": "true"
+				},
+				{
+					"name": "custom.isGlopalOrder",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "cegidCreation",
+					"type": "BOOLEAN",
+					"value": true
+				},
+				{
+					"name": "custom.customerEmail",
+					"type": "STRING",
+					"value": "taubert-vincent@t-online.de"
+				},
+				{
+					"name": "custom.cybersourceMerchantId",
+					"type": "STRING",
+					"value": "christiandior_de"
+				},
+				{
+					"name": "creditCardNumberLastDigits",
+					"type": "STRING",
+					"value": ""
+				},
+				{
+					"name": "custom.isExchangeOrder",
+					"type": "BOOLEAN",
+					"value": false
+				},
+				{
+					"name": "custom.orderPlacedMode",
+					"type": "STRING",
+					"value": "GUEST"
+				},
+				{
+					"name": "ucafCollectionIndicator",
+					"type": "STRING",
+					"value": ""
+				},
+				{
+					"name": "custom.shipping_address_phone",
+					"type": "STRING",
+					"value": "017641638009"
+				},
+				{
+					"name": "custom.customerGroupOrder",
+					"type": "STRING",
+					"value": "YES"
+				},
+				{
+					"name": "custom.currency",
+					"type": "STRING",
+					"value": "EUR"
+				},
+				{
+					"name": "cardExpirationDate",
+					"type": "STRING",
+					"value": "0"
+				},
+				{
+					"name": "orderRequestId",
+					"type": "STRING",
+					"value": "6740626692146496304277"
+				},
+				{
+					"name": "custom.cdcCegidSubsidiary",
+					"type": "STRING",
+					"value": "ID003"
+				}
+			]
+		}
+	}
+}
