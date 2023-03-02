@@ -1,0 +1,11 @@
+##=====================================================
+mule.env: "dev"
+  
+##=========== HTTP SYSTEM ==============================
+system:
+  host: "localhost"
+  port: "8082"
+  basePath: "/api"
+  client_id: "35e0a6f76e364909a100e6b0fccacf5d"
+  client_secret: "![zkJ1wb7eE7NgHg0SrZI8l2+mycST0DBWaXq3f8uV60IG6Gj3jn6Bbw==]"
+  

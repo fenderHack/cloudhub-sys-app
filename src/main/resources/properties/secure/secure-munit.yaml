@@ -1,0 +1,36 @@
+##=====================================================
+mule:
+  env: "munit"
+  port: "8080"
+  host: "0.0.0.0"
+
+##================= HTTP HTTPS ====================================  
+
+http:
+ port: "8081"
+ host: "0.0.0.0"
+ private:
+  port: "8091"
+  
+https:
+ port: "8083"
+ private:
+  port: "8092"
+  
+  
+##=========== HTTP SYSTEM ==============================
+system:
+  host: "localhost"
+  port: "8082"
+  basePath: "/api"
+  client_id: "35e0a6f76e364909a100e6b0fccacf5d"
+  client_secret: "![zkJ1wb7eE7NgHg0SrZI8l2+mycST0DBWaXq3f8uV60IG6Gj3jn6Bbw==]"
+  
+##============ JSON LOGGER =============================
+json:
+ logger:
+  application:
+   name: "learning app"
+   version: "1.0.0"
+   
+##=====================================================

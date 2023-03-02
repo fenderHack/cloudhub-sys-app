@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:secure-properties="http://www.mulesoft.org/schema/mule/secure-properties"
+	xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:api-gateway="http://www.mulesoft.org/schema/mule/api-gateway" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd 
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd 
+http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/mule/api-gateway/current/mule-api-gateway.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/schema/mule/secure-properties/current/mule-secure-properties.xsd">
+	
+	<global-property doc:name="globalProperty" doc:id="a63c192f-7c0e-496a-b0c7-19fa89e2dd52" name="env" value="dev" />
+	<global-property doc:name="secureGlobalProperty" doc:id="69e30b52-3f12-4ce0-b1f1-9a30c57a2434" name="secure.encryptionKey" value="mulesoft" />
+	
+	<configuration-properties doc:name="envFile" doc:id="738bf019-7158-47cc-a5db-63f44827e67e" file="properties/${env}.yaml" />
+	<secure-properties:config name="Secure_Properties_Config" doc:name="Secure Properties Config" doc:id="ae469790-4129-4009-8320-a3d05b85f6b9" file="properties/secure/secure-${env}.yaml" key="${secure.encryptionKey}" >
+		<secure-properties:encrypt algorithm="Blowfish" />
+	</secure-properties:config>
+	<configuration-properties doc:name="envFile" doc:id="7bfc02fe-f8f7-4f07-bc5d-d1ace90b712c" file="properties/global/global.properties" />
+	
+	
+    <apikit:config name="sys-api-config" api="resource::e60ab7b8-d535-4835-aee4-cc35fc38f83d:sys-api:1.0.0:raml:zip:sys-api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
+    <api-gateway:autodiscovery apiId="18529196" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="8909f9c2-1b76-49e8-9856-6c9644f51215" flowRef="sys-api-main" />
+	<http:listener-config name="sys-api-httpListenerConfig">
+        <http:listener-connection host="${mule.host}" port="${http.port}" />
+    </http:listener-config>
+	<configuration doc:name="Configuration" doc:id="814ace48-65d2-4bea-a666-0acf0759aa76" defaultErrorHandler-ref="Error_Handler" />
+	
+	
+</mule>
