@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>e60ab7b8-d535-4835-aee4-cc35fc38f83d</groupId>
+		<artifactId>sys-master-bom</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../master-bom/pom.xml</relativePath>
+	</parent>
+
+	<groupId>e60ab7b8-d535-4835-aee4-cc35fc38f83d</groupId>
+	<artifactId>sys-parent-pom</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>sys-parent-pom</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<app.runtime>4.4.0-20220523</app.runtime>
+	</properties>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+				</plugin>
+				<plugin>
+					<groupId>org.mule.tools.maven</groupId>
+					<artifactId>mule-maven-plugin</artifactId>
+					<extensions>true</extensions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<configuration>
+          				<propertiesEncoding>ISO-8859-1</propertiesEncoding>
+        			</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/log4j2.xml</include>
+					<include>**/*.yaml</include>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+			<!-- Inlude all the file in resource folder with filtering off -->
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+</project>

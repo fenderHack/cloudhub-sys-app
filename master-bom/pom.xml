@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>e60ab7b8-d535-4835-aee4-cc35fc38f83d</groupId>
+	<artifactId>sys-master-bom</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>sys-master-bom</name>
+
+	<properties>
+		
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<app.runtime>4.4.0-20220523</app.runtime>
+		
+		<mule.maven.plugin.version>3.5.4</mule.maven.plugin.version>
+		<maven.clean.plugin>3.0.0</maven.clean.plugin>
+		<maven.resources.plugin>3.2.0</maven.resources.plugin>
+
+		<mule.http.connector>1.7.1</mule.http.connector>
+		<mule.sockets.connector>1.2.2</mule.sockets.connector>
+		<mule.secure>1.2.5</mule.secure>
+		<apikit.module>1.6.0</apikit.module>
+		
+	</properties>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>${maven.clean.plugin}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.mule.tools.maven</groupId>
+					<artifactId>mule-maven-plugin</artifactId>
+					<version>${mule.maven.plugin.version}</version>
+					<extensions>true</extensions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>${maven.resources.plugin}</version>
+				</plugin>
+			</plugins>
+
+		</pluginManagement>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/log4j2.xml</include>
+					<include>**/*.yaml</include>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+			<!-- Inlude all the file in resource folder with filtering off -->
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.mule.connectors</groupId>
+				<artifactId>mule-http-connector</artifactId>
+				<version>${mule.http.connector}</version>
+				<classifier>mule-plugin</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.mule.connectors</groupId>
+				<artifactId>mule-sockets-connector</artifactId>
+				<version>${mule.sockets.connector}</version>
+				<classifier>mule-plugin</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.mule.modules</groupId>
+				<artifactId>mule-apikit-module</artifactId>
+				<version>${apikit.module}</version>
+				<classifier>mule-plugin</classifier>
+			</dependency>
+			<dependency>
+				<groupId>com.mulesoft.modules</groupId>
+				<artifactId>mule-secure-configuration-property-module</artifactId>
+				<version>${mule.secure}</version>
+				<classifier>mule-plugin</classifier>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+
+	<repositories>
+		<repository>
+			<id>anypoint-exchange-v3</id>
+			<name>Anypoint Exchange</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+			<layout>default</layout>
+		</repository>
+		<repository>
+			<id>mulesoft-releases</id>
+			<name>MuleSoft Releases Repository</name>
+			<url>https://repository.mulesoft.org/releases/</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>mulesoft-releases</id>
+			<name>MuleSoft Releases Repository</name>
+			<layout>default</layout>
+			<url>https://repository.mulesoft.org/releases/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+</project>
