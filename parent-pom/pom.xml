@@ -6,9 +6,9 @@
 	
 	<parent>
 		<groupId>e60ab7b8-d535-4835-aee4-cc35fc38f83d</groupId>
-		<artifactId>sys-master-bom</artifactId>
+		<artifactId>master-bom</artifactId>
 		<version>1.0.0</version>
-		<relativePath>../master-bom/pom.xml</relativePath>
+		<!-- <relativePath>../master-bom/pom.xml</relativePath> -->
 	</parent>
 
 	<groupId>e60ab7b8-d535-4835-aee4-cc35fc38f83d</groupId>
@@ -21,7 +21,24 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<app.runtime>4.4.0-20220523</app.runtime>
+		<app.runtime>4.4.0</app.runtime>
+		<environment>Develop</environment>
+		<connectedAppClientId>d97363bc15894225b12ae4224919c3ac</connectedAppClientId>
+		<connectedAppClientSecret>8eDd065449D04338960d4491Db57a5d7</connectedAppClientSecret>
+		<app.prefix>z-cloudhub-</app.prefix>
+		<app.suffix>sys-app-</app.suffix>
+		<app.version>1.0.0</app.version>
+		<app.name>${app.prefix}${app.suffix}${app.version}</app.name>
+		<cloudhub.application.name>${app.name}</cloudhub.application.name>
+		<region>us-east-2</region>
+
+		<workers>1</workers>
+		<workerType>MICRO</workerType>
+		<anypoint.platform.client_id>95ae8ee0df164cafb2e25336d221ef6d</anypoint.platform.client_id>
+		<anypoint.platform.client_secret>8398F1627F1b413b8DDcfE2ee915fa92</anypoint.platform.client_secret>
+		<secure.key>mulesoft</secure.key>
+		<!-- <username>slionel3</username> <password>41062407Aa@</password> -->
+		<server>MuleRepository</server>
 	</properties>
 
 	<build>
@@ -35,6 +52,32 @@
 					<groupId>org.mule.tools.maven</groupId>
 					<artifactId>mule-maven-plugin</artifactId>
 					<extensions>true</extensions>
+					<configuration>
+						<cloudHubDeployment>
+							<uri>https://anypoint.mulesoft.com</uri>
+							<muleVersion>${app.runtime}</muleVersion>
+							<!-- <connectedAppClientId>${connectedAppClientId}</connectedAppClientId>
+							<connectedAppClientSecret>${connectedAppClientSecret}</connectedAppClientSecret>
+							<connectedAppGrantType>client_credentials</connectedAppGrantType> -->
+							<applicationName>${cloudhub.application.name}</applicationName>
+							<environment>${environment}</environment>
+							<region>${region}</region>
+							<workers>${workers}</workers>
+							<deploymentTimeout>1000000</deploymentTimeout>
+							<workerType>${workerType}</workerType>
+							<objectStoreV2>true</objectStoreV2>
+							<persistentQueues>false</persistentQueues>
+							<!-- <username>${username}</username> <password>${password}</password> -->
+							<server>${server}</server>
+							<properties>
+								<!-- <env>${environment}</env> -->
+								<secure.key>${secure.key}</secure.key>
+								<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>
+								<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
+							</properties>
+						</cloudHubDeployment>
+					</configuration>
+					
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
